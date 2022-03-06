@@ -17,6 +17,12 @@ A template for kick starting a Cloudflare Workers project using:
 
 Worker code is in `src/`. The Durable Object `CounterTs` class is in `src/counter.ts`, and the eyeball script is in `index.ts`.
 
+Run `npm run lint` to run eslint against TypeScript and JavaScript files in `./src`.
+
+Run `npm run format` to format TypeScript and JavaScript files in `./src`.
+
+Run `npm run miniflare` to build the project and locally test on [Miniflare](https://miniflare.dev/).
+
 Rollup is configured to output a bundled ES Module to `dist/index.mjs`.
 
 There's an example unit test in `src/index.test.ts`, which will run as part of `wrangler build`. To run tests on their own use `npm test`.
