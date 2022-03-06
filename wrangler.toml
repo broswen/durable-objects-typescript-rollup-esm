@@ -1,10 +1,11 @@
-name = "worker"
+name = "durable-objects-typescript-rollup-esm"
 # type = "javascript" is required to use the `[build]` section
 type = "javascript"
 account_id = ""
 workers_dev = true
 route = ""
 zone_id = ""
+compatibility_date = "2022-03-06"
 
 [build]
 command = "npm install && npm test && npm run build"
