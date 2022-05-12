@@ -21,7 +21,7 @@ Run `npm run lint` to run eslint against TypeScript and JavaScript files in `./s
 
 Run `npm run format` to format TypeScript and JavaScript files in `./src`.
 
-Run `npm run miniflare` to build the project and locally test on [Miniflare](https://miniflare.dev/).
+Run `npm run dev` to build the project and test locally.
 
 Rollup is configured to output a bundled ES Module to `dist/index.mjs`.
 
